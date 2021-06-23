@@ -1,9 +1,13 @@
 # `cortex-m0 for stm32go71rb`
 
-> A template for building applications for ARM Cortex-M microcontrollers
+> A template for building applications for ARM Cortex-M0 microcontrollers
+
+## Target specifying and project build 
 
 ``` console
-$ rustup target add thumbv6m-none-eabi thumbv7m-none-eabi thumbv7em-none-eabi thumbv7em-none-eabihf
+$ rustup target add cargo build --target thumbv7m-none-eabi
+$ cargo build --target cargo build --target thumbv7m-none-eabi
+$ cargo build
 ```
 
 0. Before we begin you need to identify some characteristics of the target
