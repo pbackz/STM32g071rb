@@ -1,9 +1,9 @@
 [package]
-authors = ["{{authors}}"]
+authors = ["pierre.baconnier@outlook.fr"]
 edition = "2018"
 readme = "README.md"
-name = "{{project-name}}"
-version = "0.1.0"
+name = "stm32go71rb"
+version = "0.2.0"
 
 [dependencies]
 cortex-m = "0.6.0"
@@ -26,7 +26,7 @@ panic-halt = "0.2.0"
 
 # this lets you use `cargo fix`!
 [[bin]]
-name = "{{project-name}}"
+name = "stm32go71rb"
 test = false
 bench = false
 
