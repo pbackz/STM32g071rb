@@ -5,8 +5,8 @@
 ## Target specifying and project build 
 
 ``` console
-$ rustup target add cargo build --target thumbv7m-none-eabi
-$ cargo build --target cargo build --target thumbv7m-none-eabi
+$ rustup target add cargo build --target thumbv6m-none-eabi
+$ cargo build --target cargo build --target thumbv6m-none-eabi
 $ cargo build
 ```
 
