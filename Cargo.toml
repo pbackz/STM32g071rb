@@ -2,7 +2,7 @@
 authors = ["pierre.baconnier@outlook.fr"]
 edition = "2018"
 readme = "README.md"
-name = "stm32go71rb"
+name = "stm32g071rb"
 version = "0.2.0"
 
 [dependencies]
@@ -26,7 +26,7 @@ panic-halt = "0.2.0"
 
 # this lets you use `cargo fix`!
 [[bin]]
-name = "stm32go71rb"
+name = "stm32g071rb"
 test = false
 bench = false
 
